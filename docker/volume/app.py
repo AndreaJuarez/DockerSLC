@@ -3,8 +3,8 @@ import web
 urls = (
     '/', 'mvc.controllers.index.Index',
 
-    '/insert', 'mvc.controllers.herramientas.docker.Docker',
-    '/list', 'mvc.controllers.herramientas.ubuntu.List',
+    '/docker', 'mvc.controllers.herramientas.docker.Docker',
+    '/ubuntu', 'mvc.controllers.herramientas.ubuntu.Ubuntu',
 )
 app = web.application(urls, globals())
 

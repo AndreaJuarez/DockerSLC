@@ -2,7 +2,7 @@ import web
 
 render = web.template.render("mvc/views/herramientas/", base="template")
 
-class List():
+class Ubuntu():
 
     def GET(self):
         try:
